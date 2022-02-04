@@ -5,10 +5,13 @@ describe('LifeExpectancy', () => {
   let testAge;
 
   beforeEach(() => {
-    testAge = new LifeExpectancy(32);
+    testAge = new LifeExpectancy(73);
   });
 
   test('should correctly return remaining years', () => {
     expect(testAge.getLifeExpectancy()).toEqual(41);
+  });
+  test('should correctly return remaining years', () => {
+    expect(testAge.getLifeExpectancy()).toEqual(0);
   });
 });

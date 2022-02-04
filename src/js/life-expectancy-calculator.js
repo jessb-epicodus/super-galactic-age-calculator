@@ -8,6 +8,8 @@ export default class LifeExpectancy {
     let livedYrs = this.earthYrs;
     if (livedYrs <= 72) {
       return Math.round(72.6 - livedYrs)
+    } else if (livedYrs > 72) {
+      return Math.round(livedYrs - 72.6)
     }
   }
 }
