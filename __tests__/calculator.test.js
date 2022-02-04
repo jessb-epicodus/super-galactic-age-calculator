@@ -1,3 +1,4 @@
+import Age from '.././src/js/calculator';
 import Calculator from '.././src/js/calculator';
 
 describe('Age', () => {
