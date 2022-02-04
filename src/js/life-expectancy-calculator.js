@@ -29,6 +29,11 @@ export default class LifeExpectancy {
     }
   }
   getMarsRemainigYrs () {
-
+    let livedYrs = this.earthYrs;
+    if (livedYrs <= 72) {
+      return Math.round((72.6 - livedYrs) / 1.88)
+    } else if (livedYrs > 72) {
+      return Math.round((livedYrs - 72.6) /1.88)
+    }
   }
 }
