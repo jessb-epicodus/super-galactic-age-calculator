@@ -25,4 +25,7 @@ describe('LifeExpectancy', () => {
   test('should correctly return remaining Mercury years', () => {
     expect(testAge.getVenusRemainigYrs()).toEqual(65);
   });
+  test('should correctly return remaining Mercury years', () => {
+    expect(testAge.getMarsRemainigYrs()).toEqual(22);
+  });
 });
