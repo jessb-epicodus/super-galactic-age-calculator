@@ -8,6 +8,7 @@
 
 export default class Age {
 
-  constructor() {
+  constructor(years) {
+    this.years = years;
   }
 }

@@ -1,6 +1,6 @@
-import Calculator from '.././src/js/calculator.js';
+import Calculator from '.././src/js/calculator';
 
-describe('Calculator', () => {
+describe('Age', () => {
 
   let testAge;
 
@@ -8,7 +8,7 @@ describe('Calculator', () => {
     testAge = new Age(32);
   });
 
-  test('should correctly create object age', () => {
-    expect(testAge.givenAge).toEqual(32);
+  test('should correctly return years', () => {
+    expect(testAge.years).toEqual(32);
   });
 });
