@@ -24,4 +24,7 @@ describe('Age', () => {
   test('should correctly return Jupiter years', () => {
     expect(testAge.getJupiterYrs()).toEqual(3);
   });
+  test('should correctly return life expectancy in years', () => {
+    expect(testAge.()).toEqual(3);
+  });
 });

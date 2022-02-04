@@ -4,6 +4,70 @@
   <title>Super Galactic Age Calculator</title>
 </head>
 <body>
-
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <div class="jumbotron">
+          <h1 class="display-4">Super Galactic Age & Life Expectancy Calculator</h1>
+        </div>
+        <form id="user-entry">
+          <div class="form-group">
+            <label for="earth-yrs">Enter your age in Earth years:</label>
+            <input type="number" class="form-control" id="earth-yrs">
+          </div>
+          <button type="button" class="btn btn-dark">Submit</button>
+        </form>
+        <br>  <br>  <br>
+        <div id="results">
+          <div class="row">
+            <div class="col-sm" id="mercury-disp">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header"><h5>MERCURY</h5></div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Age: <span id="cons-count-disp"><!--Mercury age--></span> years old <br>
+                    Life Expectancy: <span id="cons-count-disp"><!--Mercury expectancy--></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm" id="venus-disp">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header"><h5>VENUS</h5></div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Age: <span id="cons-count-disp"><!--Venus age--></span> years old <br>
+                    Life Expectancy: <span id="cons-count-disp"><!--Venus expectancy--></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm" id="mars-disp">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header"><h5>MARS</h5></div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Age: <span id="cons-count-disp"><!--Mars age--></span> years old <br>
+                    Life Expectancy: <span id="cons-count-disp"><!--Mars expectancy--></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm" id="jupiter-disp">
+              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header"><h5>JUPITER</h5></div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Age: <span id="cons-count-disp"><!--Jupiter age--></span> years old <br>
+                    Life Expectancy: <span id="cons-count-disp"><!--Jupiter expectancy--></span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>   
+  </div>
 </body>
 </html>
