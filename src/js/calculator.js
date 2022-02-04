@@ -25,6 +25,6 @@ export default class Age {
   }
 
   getJupiterYrs () {
-
+    return Math.round(this.earthYrs * 11.86);
   }
 }
