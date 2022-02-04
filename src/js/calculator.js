@@ -13,5 +13,6 @@ export default class Age {
   }
 
   getMercuryYrs () {
+    return Math.round(this.years *.24);
   }
 }

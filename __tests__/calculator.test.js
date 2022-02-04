@@ -13,6 +13,6 @@ describe('Age', () => {
     expect(testAge.years).toEqual(32);
   });
   test('should correctly return Mercury years', () => {
-    expect(testAge.getMercuryYrs).toEqual(7.68);
+    expect(testAge.getMercuryYrs()).toEqual(8);
   });
 });
