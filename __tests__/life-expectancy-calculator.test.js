@@ -8,7 +8,7 @@ describe('LifeExpectancy', () => {
     testAge = new LifeExpectancy(32);
   });
 
-  test('should correctly return life expectancy in years', () => {
-    expect(testAge.getLifeExpectancy()).toEqual(40);
+  test('should correctly return remaining years', () => {
+    expect(testAge.getLifeExpectancy()).toEqual(41);
   });
 });
