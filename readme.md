@@ -38,7 +38,7 @@ DESCRIBE
 ## Contact
 
 _If you run into any issues or have questions, ideas or concerns or wish to make a contribution to the code see contact information below._
-* Jessica Baker: jessb.epicodus@gmail.com+
+* Jessica Baker: jessb.epicodus@gmail.com
 
 ## License
 
