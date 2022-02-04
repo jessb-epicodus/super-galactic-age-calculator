@@ -9,12 +9,12 @@ describe('LifeExpectancy', () => {
   });
 
   test('should correctly return remaining Mercury years', () => {
-    expect(testAge.getMercuryRemainigYrs()).toEqual(169);
+    expect(testAge.getMercuryRemainigYrs()).toEqual(169 years remaining);
   });
 
   test('should correctly return remaining Mercury years', () => {
     let oldAge = new LifeExpectancy(73)
-    expect(oldAge.getMercuryRemainigYrs()).toEqual(2);
+    expect(oldAge.getMercuryRemainigYrs()).toEqual(2 years past average life expectancy);
   });
 
   test('should correctly return remaining Venus years', () => {

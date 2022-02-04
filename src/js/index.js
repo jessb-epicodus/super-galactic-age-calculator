@@ -11,22 +11,25 @@ $(document).ready(function() {
     let earthYrs = parseInt($('#earth-yrs').val());
     let userAge = new Age(earthYrs);
     let remainingYrs = new LifeExpectancy(earthYrs);
+
     let mercuryLivedYrs = userAge.getMercuryYrs();
     let venusLivedYrs = userAge.getVenusYrs();
     let marsLivedYrs = userAge.getMarsYrs();
     let jupiterLivedYrs = userAge.getJupiterYrs();
+
     let mercuryRemainingYrs = remainingYrs.getMercuryRemaininYrs();
     let venusRemainingYrs = remainingYrs.getVenusRemaininYrs();
     let marsRemainingYrs = remainingYrs.getMarsRemaininYrs();
     let jupiterRemainingYrs = remainingYrs.getJupiterRemaininYrs();
-    $('#mercury-yrs').text(`${mercuryLivedYrs}`);
-    $('#venus-yrs').text(`${venusLivedYrs}`);
-    $('#mars-yrs').text(`${marsLivedYrs}`);
-    $('#jupiter-yrs').text(`${jupiterLivedYrs}`);
-    $('#mercury-remaining-yrs').text(`${mercuryRemainingYrs}`);
-    $('#venus-remaining-yrs').text(`${venusRemainingYrs}`);
-    $('#mars-remaining-yrs').text(`${marsRemainingYrs}`);
-    $('#jupiter-remaining-yrs').text(`${jupiterRemainingYrs}`);
-    $("#results").show();
+    // $("#results").show();
+    $('#mercury-yrs').text(mercuryLivedYrs);
+    $('#venus-yrs').text(venusLivedYrs);
+    $('#mars-yrs').text(marsLivedYrs);
+    $('#jupiter-yrs').text(jupiterLivedYrs);
+
+    $('#mercury-remaining-yrs').text(mercuryRemainingYrs);
+    $('#venus-remaining-yrs').text(venusRemainingYrs);
+    $('#mars-remaining-yrs').text(marsRemainingYrs);
+    $('#jupiter-remaining-yrs').text(jupiterRemainingYrs);
   });
 });
