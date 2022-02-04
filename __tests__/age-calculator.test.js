@@ -1,5 +1,4 @@
-import Age from '.././src/js/calculator';
-import Calculator from '.././src/js/calculator';
+import Age from '../src/js/age-calculator';
 
 describe('Age', () => {
 
@@ -23,8 +22,5 @@ describe('Age', () => {
   });
   test('should correctly return Jupiter years', () => {
     expect(testAge.getJupiterYrs()).toEqual(3);
-  });
-  test('should correctly return life expectancy in years', () => {
-    expect(testAge.getLifeExpectancy()).toEqual(41);
   });
 });
