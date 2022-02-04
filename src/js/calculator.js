@@ -21,5 +21,6 @@ export default class Age {
   }
 
   getMarsYrs () {
+    return Math.round(this.earthYrs * 1.88);
   }
 }
