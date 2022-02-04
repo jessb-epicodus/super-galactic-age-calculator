@@ -13,15 +13,15 @@ describe('Age', () => {
     expect(testAge.earthYrs).toEqual(32);
   });
   test('should correctly return Mercury years', () => {
-    expect(testAge.getMercuryYrs()).toEqual(8);
+    expect(testAge.getMercuryYrs()).toEqual(133);
   });
   test('should correctly return Venus years', () => {
-    expect(testAge.getVenusYrs()).toEqual(20);
+    expect(testAge.getVenusYrs()).toEqual(52);
   });
   test('should correctly return Mars years', () => {
-    expect(testAge.getMarsYrs()).toEqual(60);
+    expect(testAge.getMarsYrs()).toEqual(17);
   });
   test('should correctly return Jupiter years', () => {
-    expect(testAge.getJupiterYrs()).toEqual(380);
+    expect(testAge.getJupiterYrs()).toEqual(3);
   });
 });
