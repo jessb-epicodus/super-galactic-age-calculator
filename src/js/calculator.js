@@ -29,6 +29,6 @@ export default class Age {
   }
 
   getLifeExpectancy () {
-
+    return Math.round(72.6 - this.earthYrs)  
   }
 }
