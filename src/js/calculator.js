@@ -8,11 +8,15 @@
 
 export default class Age {
 
-  constructor(years) {
-    this.years = years;
+  constructor(earthYrs) {
+    this.earthYrs = earthYrs;
   }
 
   getMercuryYrs () {
-    return Math.round(this.years *.24);
+    return Math.round(this.earthYrs *.24);
+  }
+
+  
+  getVenusYrs () {
   }
 }
