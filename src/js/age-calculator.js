@@ -10,7 +10,7 @@ export default class Age {
   
   getVenusYrs () {
     return Math.round(this.earthYrs / .62);
-  }
+  } 
 
   getMarsYrs () {
     return Math.round(this.earthYrs / 1.88);
