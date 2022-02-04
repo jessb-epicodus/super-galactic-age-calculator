@@ -20,4 +20,7 @@ export default class LifeExpectancy {
       return Math.round((livedYrs - 72.6) /.24)
     }
   }
+  getVenusRemainigYrs () {
+
+  }
 }
