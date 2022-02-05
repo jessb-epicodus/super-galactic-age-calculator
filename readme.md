@@ -25,7 +25,7 @@ This application that determines a user's age and life expectancy based on a pla
 
 ## Setup/Installation Requirements
 
-* Go to _GITLINK_
+* Go to _https://github.com/jessb-epicodus/super-galactic-age-calculator.git_
 * Cone this repository to your desktop (or other desired location)
 * Navigate to the top level of the directory called _super-galactic-age-calculator_
 * Open the index.html file in your browser
