@@ -41,6 +41,6 @@ describe('LifeExpectancy', () => {
 
   test('should correctly return remaining Jupiter years', () => {
     let oldAge = new LifeExpectancy(73)
-    expect(oldAge.getJupiterRemainigYrs()).toEqual("0  year(s) past expected");
+    expect(oldAge.getJupiterRemainigYrs()).toEqual("0 year(s) past expected");
   });
 });

@@ -21,7 +21,7 @@
 
 ## Description
 
-DESCRIBE
+This application that determines a user's age and life expectancy based on a planet's solar years.
 
 ## Setup/Installation Requirements
 

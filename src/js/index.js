@@ -21,7 +21,7 @@ $(document).ready(function() {
     let venusRemainingYrs = remainingYrs.getVenusRemaininYrs();
     let marsRemainingYrs = remainingYrs.getMarsRemaininYrs();
     let jupiterRemainingYrs = remainingYrs.getJupiterRemaininYrs();
-    // $("#results").show();
+    $("#results").show();
     $('#mercury-yrs').text(mercuryLivedYrs);
     $('#venus-yrs').text(venusLivedYrs);
     $('#mars-yrs').text(marsLivedYrs);
