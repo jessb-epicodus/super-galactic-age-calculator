@@ -27,8 +27,10 @@ This application that determines a user's age and life expectancy based on a pla
 
 * Go to _https://github.com/jessb-epicodus/super-galactic-age-calculator.git_
 * Cone this repository to your desktop (or other desired location)
-* Navigate to the top level of the directory called _super-galactic-age-calculator_
-* Open the index.html file in your browser
+* Navigate to the root directory, _super-galactic-age-calculator_
+* From the root directory, run _'npm install'_ in your terminal to install the required dependencies into the node_modules/directory, for this node project as specified in _package.json_
+* From the root directory, run _'npm run build'_ in your terminal to build thise project as specified in _package.json_
+* Open dist/index.html in your browser
 * _This is not yet published._
 
 ## Known Bugs
