@@ -2,8 +2,8 @@ import $ from 'jquery';
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '.././css/styles.css';
-import Age from './age-calculator';
-import LifeExpectancy from './life-expectancy-calculator';
+import Age from './js/age-calculator';
+import LifeExpectancy from './js/life-expectancy-calculator';
 
 $(document).ready(function() {
   $('#age-calc').submit(function(event) {

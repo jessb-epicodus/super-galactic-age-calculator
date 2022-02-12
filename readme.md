@@ -16,7 +16,7 @@
 * webpack
 * ESLint
 * Babel
-* Popper.js
+* Popper
 * Jest
 
 ## Description
@@ -28,9 +28,9 @@ This application that determines a user's age and life expectancy based on a pla
 * Go to _https://github.com/jessb-epicodus/super-galactic-age-calculator.git_
 * Cone this repository to your desktop (or other desired location)
 * Navigate to the root directory, _super-galactic-age-calculator_
-* From the root directory, run _'npm install'_ in your terminal to install the required dependencies into the node_modules/directory, for this node project as specified in _package.json_
-* From the root directory, run _'npm run build'_ in your terminal to build thise project as specified in _package.json_
-* Open dist/index.html in your browser
+* From the root directory, run _'npm install'_ in your terminal to install the required dependencies into for this node project as specified in _package.json_
+* From the root directory, run _'npm run build'_ in your terminal to build this project as specified in _package.json_
+* To open live server in your browser, enter _npm start_ in your terminal
 * _This is not yet published._
 
 ## Known Bugs
